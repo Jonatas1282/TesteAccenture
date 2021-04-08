@@ -1,0 +1,128 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      },
+      {
+        "line": 2,
+        "value": "#Author: jonata.rosa@hotmail.com"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Preencher os formularios e enviar um email",
+        "description": "",
+        "id": "preencher-formularios;preencher-os-formularios-e-enviar-um-email",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5817890000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que esteja no site do teste",
+            "match": {
+              "location": "Steps.que_esteja_no_site_do_teste()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1455639300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "preencher os formulario da aba Vehicle Data",
+            "match": {
+              "location": "Steps.preencher_os_formulario_da_aba_Vehicle_Data()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1639999200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencher os formulario da aba Insurant Data",
+            "match": {
+              "location": "Steps.preencher_os_formulario_da_aba_Insurant_Data()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 772405700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencher os formulario da aba Product Data",
+            "match": {
+              "location": "Steps.preencher_os_formulario_da_aba_Product_Data()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3508032000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "preencher os formulario da aba Price Option",
+            "match": {
+              "location": "Steps.preencher_os_formulario_da_aba_Price_Option()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1009534000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "preencher os formulario da aba Send Quote",
+            "match": {
+              "location": "Steps.preencher_os_formulario_da_aba_Send_Quote()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 12413164000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "valido a mensagem na tela",
+            "match": {
+              "location": "Steps.valido_a_mensagem_na_tela()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Executa1"
+          }
+        ]
+      }
+    ],
+    "name": "Preencher formularios",
+    "description": " Eu como usuario quero acessar site para preencher os formularios e enviar um email",
+    "id": "preencher-formularios",
+    "keyword": "Funcionalidade",
+    "uri": "Accenture-.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@Executa"
+      }
+    ]
+  }
+]
